@@ -83,13 +83,13 @@ describe('mape', function() {
     (Math.round(mape(dataset) * 1000) / 1000).should.equal(151.503);
   });
 
-  it('should produce an invalid mean absolute percentage error due to divide by zero', function() {
+  it('should produce NaN due to divide by zero', function() {
 
     var dataset = [{
-      actual: 5,
-      predicted: 5
+      actual: 0,
+      predicted: 0
     }];
 
-    mape(dataset).should.equal(17.6);
+    mape(dataset).should.be.NaN;
   });
 });
