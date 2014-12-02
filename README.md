@@ -13,21 +13,22 @@ Calculate the Mean absolute percentage error for a dataset.
 
 ```javascript
 var mape = require('mape');
- var dataset = [{
-      actual: 3,
-      predicted: 2.5
-    }, {
-      actual: -0.5,
-      predicted: 0.0
-    }, {
-      actual: 2,
-      predicted: 2
-    }, {
-      actual: 7,
-      predicted: 8
-    }];
+var dataset = [{
+  actual: 112.3,
+  predicted: 124.7
+}, {
+  actual: 108.4,
+  predicted: 103.7
+}, {
+  actual: 148.9,
+  predicted: 116.6
+}, {
+  actual: 117.4,
+  predicted: 78.5
+}];
 
-    rmse(dataset)
+mape(dataset)
+// 17.55115979430067
 ```
 
 
