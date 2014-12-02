@@ -2,6 +2,8 @@
 
 Mean absolute percentage error (MAPE).
 
+[![wercker status](https://app.wercker.com/status/558ce6ce6dc2278c56f5ab215e654301/s "wercker status")](https://app.wercker.com/project/bykey/558ce6ce6dc2278c56f5ab215e654301)
+
 # usage
 ## mape(dataset)
 
