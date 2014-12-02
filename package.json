@@ -1,0 +1,23 @@
+{
+  "name": "mape",
+  "version": "0.0.1",
+  "description": "Mean absolute percentage error (MAPE)",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:nickpoorman/mape.git"
+  },
+  "author": "Nick Poorman",
+  "bugs": {
+    "url": "https://github.com/nickpoorman/mape/issues"
+  },
+  "homepage": "https://github.com/nickpoorman/mape",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^2.0.1",
+    "should": "^4.3.0"
+  }
+}
