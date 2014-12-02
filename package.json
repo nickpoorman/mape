@@ -1,6 +1,6 @@
 {
   "name": "mape",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Mean absolute percentage error (MAPE)",
   "main": "index.js",
   "scripts": {
